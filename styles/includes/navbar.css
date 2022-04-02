@@ -1,0 +1,191 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 7%);
+}
+
+#header .menu a.active{
+  color:#2dbbf0 ;
+}
+.header-desktop {
+  display: block;
+  position: relative;
+}
+
+.header-desktop .header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  background-color: #fff;
+  padding: 0 12px;
+}
+
+.header-desktop .header-row .logo, .header-mobile .logo {
+  width: 100px;
+  display: block;
+}
+
+.header-desktop .header-row .menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header-desktop .header-row .menu li {
+  margin: 0 15px;
+}
+
+.header-desktop .header-row .menu li:hover .home-menu {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  z-index: 99;
+}
+
+.header-desktop .header-row .menu li a {
+  display: block;
+  text-decoration: none;
+  color: #020612;
+  font-family: GT Walsheim Pro Medium, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.header-desktop .header-row .menu li a:hover {
+  color: #2dbbf0;
+}
+
+.header-desktop .header-row .menu li .home-menu {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  -webkit-transition: opacity .4s ease-in .3s, visibility .4s ease-in .3s, -webkit-transform .6s ease-in-out .1s;
+  transition: opacity .4s ease-in .3s, visibility .4s ease-in .3s, -webkit-transform .6s ease-in-out .1s;
+  transition: transform .6s ease-in-out .1s, opacity .4s ease-in .3s, visibility .4s ease-in .3s;
+  transition: transform .6s ease-in-out .1s, opacity .4s ease-in .3s, visibility .4s ease-in .3s, -webkit-transform .6s ease-in-out .1s;
+  -webkit-transform: translateY(30px);
+  transform: translateY(30px);
+}
+
+.header-desktop .header-row .menu li .home-menu .box {
+  background-color: transparent;
+}
+
+.header-desktop .header-row .menu li .home-menu .box .box-img {
+  margin-bottom: 30px;
+  height: 290px;
+}
+
+.header-desktop .header-row .menu li .home-menu .box span {
+  color: #020612;
+}
+
+.header-desktop .header-row .sosial-icons, .header-mobile .sosial-icons {
+  text-align: right;
+}
+
+.header-desktop .header-row .sosial-icons a,  .header-mobile .sosial-icons a {
+  margin-left: 20px;
+  color: #020612;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.header-desktop .header-row .sosial-icons a:first-child, .header-mobile .sosial-icons a:first-child {
+  margin-left: 0;
+}
+
+.header-desktop .header-row .sosial-icons a:hover i, .header-mobile .sosial-icons a:hover i {
+  color: #2dbbf0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.header-desktop .header-row .sosial-icons a i, .header-mobile .sosial-icons a i {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #020612;
+}
+
+.header-desktop .header-row .sosial-icons a span, .header-mobile .sosial-icons a span {
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2dbbf0;
+  color: #fff;
+  text-align: center;
+}
+.header-mobile {
+ height:60px;
+ display: none;
+ max-width: 100%;
+ padding: 0 30px;
+ background-color: #fff;
+}
+.header-mobile .logo{
+  margin: 0 auto;
+}
+.header-mobile .menu-mobile{
+  color:#0d0707;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 15px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  display: block;
+}
+
+.header-desktop .header-row {
+  background-color: #fff !important;
+}
+@media (max-width:1024px){
+  .header-mobile{
+    display: block;
+  }
+  .header-desktop{
+    display: none;
+  }
+}
+@media (max-width:575px){
+  .header-mobile{
+    padding: 0 15px;
+  }
+}

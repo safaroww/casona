@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#footer{
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #e8e8e8;
+    /* transition: background .3s,border .3s,border-radius .3s,box-shadow .3s; */
+    padding: 10px 15px;
+}
+#footer .footer-box{
+    padding-top:15px;
+    padding-bottom:15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+#footer .footer-box:first-child{
+    justify-content: flex-start;
+}
+#footer .footer-box img{
+    width:110px;
+    height: auto;
+    display: block;
+}
+#footer .footer-menu{
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+#footer .footer-menu li{
+margin: 0 20px;
+}
+#footer .footer-menu li a{
+font-family: "GT Walsheim Pro Medium",Sans-serif;
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 1.3em;
+letter-spacing: 2px;
+transition:color .3s;
+color: #0d0707;
+text-decoration: none;
+}
+#footer .footer-menu li a:hover{
+    color: #2dbbf0;
+}
+#footer .footer-box .footer-social-links{
+    display: flex;
+    justify-content: flex-end;
+}
+#footer .footer-box .footer-social-links a{
+    width:33.8px;
+    height:33.8px;
+    background: #1e1e1e;
+    border-radius: 50%;
+    color:#fff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left:10px;
+}
+#footer .footer-box .footer-social-links a:first-child{
+    margin-left: 0;
+}
+#footer .footer-box .footer-social-links a:hover{
+transition: all .3s;
+background: #2dbbf0;
+}
+@media (max-width:767px){
+    #footer{
+        padding: 45px 0 35px;
+     }
+   .footer-row{
+       display: block;
+   }
+   #footer .footer-box{
+       padding: 0 0 20px;
+       justify-content: center;
+   }
+   #footer .footer-box:first-child{
+       justify-content: center;
+   }
+   #footer .footer-box .footer-social-links{
+       justify-content: center;
+   }
+
+
+}

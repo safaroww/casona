@@ -1,0 +1,606 @@
+@import url('./includes/navbar.css');
+@import url('./includes/footer.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#about-top .about-bg-img {
+    position: relative;
+    background: url(../images/blog-bgf.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-top .center-text-title {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    font-family: "GT Walsheim Pro Thin,sans-serif";
+    letter-spacing: 0px;
+}
+
+#about-top .center-text-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-top .center-text-links li a {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+#about-top .center-text-links li:first-child::after {
+    display: inline-block;
+    margin: 0 8px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #868686;
+    transform: rotate(45deg);
+    border-width: 1px 1px 0 0;
+    border-color: #fff;
+}
+
+#about-gent {
+    margin-top: 65px;
+}
+
+#about-gent .about-img {
+    max-height: 658px;
+    width: 100%;
+}
+
+#handcraft-boxes {
+    margin: 75px 0 0 0;
+
+}
+
+#handcraft-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#handcraft-boxes .center-text {
+    width: 79%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#handcraft-boxes .center-text h4 {
+    margin-bottom: 40px;
+    font-family: "GT Walsheim Pro Regular", Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #000;
+}
+
+#handcraft-boxes .center-text p {
+    margin-bottom: 40px;
+    font-family: "GT Walsheim Pro Regular", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #919191;
+}
+
+#handcraft-boxes .center-text a {
+    height: 36px;
+    color: #000;
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: #000;
+    text-decoration: none;
+    transition: color .3s linear 0s, border .3s linear 0s;
+    display: inline-flex;
+    align-items: center;
+}
+
+#handcraft-boxes .center-text a span {
+    font-family: "MaisonNeue-Medium", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+#handcraft-boxes .center-text a:hover {
+    color: #ffa749;
+    border-color: #ffa749;
+}
+
+.handcraft-images-row {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#handcraft1 {
+    margin: 0 100px 0 0;
+    padding-bottom: 15px;
+}
+
+#handcraft2 {
+    margin: 200px 0 0 100px;
+    padding-bottom: 15px;
+
+}
+
+.handcraft .box {
+    margin-bottom: 60px;
+}
+
+.handcraft .text h4 {
+    margin-bottom: 30px;
+    font-family: "GT Walsheim Pro Regular", Sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1em;
+    color: #000;
+}
+
+.handcraft .text p {
+    color: #919191;
+    font-family: "GT Walsheim Pro Regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 1rem;
+}
+
+/* reasons section */
+
+#reasons {
+    width: 100%;
+    height: 100%;
+    background: url(../images/reasons-bg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 125px 0 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#reasons .reasons-center h1 {
+    margin-bottom: 80px;
+    font-family: "GT Walsheim Pro Regular", Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.reason-boxes .box {
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: #FFFFFF75;
+    padding: 50px 15px;
+}
+
+.reason-boxes .box .box-content {
+    margin: 0 100px;
+    max-width: 145px;
+    text-align: center;
+}
+
+.reason-boxes .box .box-content span {
+    font-size: 80px;
+    color: #fff;
+    fill: #fff;
+    border-color: #fff;
+    display: block;
+}
+
+.reason-boxes .box .box-content span svg {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.reason-boxes .box .box-content span #svg1 {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.reason-boxes .box .box-content span #svg2,
+.reason-boxes .box .box-content span #svg3 {
+    width: 65px;
+    height: 65px;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.reason-boxes .box .box-content h2 {
+    font-family: "GT Walsheim Pro Regular", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+#testimonials {
+    padding-top: 68px;
+}
+
+#testimonials .container {
+    max-width: 1205px;
+}
+
+#testimonials .testimonials-title {
+    text-align: center;
+}
+
+#testimonials .line {
+    width: 40px;
+    height: 1px;
+    background-color: #dfdfdf;
+    margin: 20px auto 70px;
+    line-height: 0;
+}
+
+#testimonials .testimonial-box {
+    text-align: center;
+    padding: 75px 30px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f0f0f0;
+    margin-right: 40px;
+}
+
+#testimonials .testimonial-box.end {
+    margin-right: 0;
+}
+
+#testimonials .testimonial-box p {
+    font-family: "GT Walsheim Pro Regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #919191;
+    margin: 0 0 20px;
+}
+
+#testimonials .testimonial-box .stars {
+    margin: 0 0 5px;
+    font-size: 22px;
+    color: #ccd6df;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#testimonials .testimonial-box .stars .star {
+    color: #f0ad4e;
+}
+
+#testimonials .testimonial-box .absolute-box img {
+    display: block;
+    width: 87px;
+    height: 87px;
+    border-radius: 50px;
+    margin: 0 auto 25px;
+}
+
+#testimonials .testimonial-box .absolute-box span {
+    font-family: "GT Walsheim Pro Medium", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2px;
+    color: #000;
+    margin: 0 0 -80px;
+}
+
+.pagination {
+    margin: 50px auto;
+    width: auto;
+    padding: 0;
+}
+
+.pagination span {
+    width: 11px;
+    height: 11px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.pagination span:last-child{
+margin-right: 0;
+}
+.pagination span.first-circle {
+    background-color: #000;
+}
+
+#brands {
+    padding: 86px 15px;
+    border-top: 1px solid #d4d4d4;
+}
+
+#brands .brand-box {
+    margin-right: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+#brands .brand-box.end {
+    margin-right: 0;
+}
+
+/* responsive */
+
+
+@media (max-width:1024px) {
+    #about-gent {
+        margin-top: 50px;
+    }
+    .reasons-center{
+        flex-wrap: wrap;
+    }
+    #handcraft-boxes {
+        margin-top: 50px;
+    }
+
+    #handcraft-boxes .center-text h4 {
+        margin-bottom: 28px;
+        font-size: 30px;
+    }
+
+    #handcraft-boxes .center-text p {
+        font-size: 15px;
+        line-height: 1.6em;
+    }
+
+    #handcraft-boxes .center-text {
+        width: 60%;
+    }
+
+    #handcraft-boxes .center-text a {
+        height: 32px;
+    }
+
+    #handcraft-boxes .center-text a span {
+        font-size: 15px;
+    }
+
+    .handcraft-images-row {
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+
+    #handcraft1 {
+        margin-right: 13px;
+    }
+
+    #handcraft2 {
+        margin: 140px 0 0 13px;
+    }
+
+    .handcraft .box {
+        margin-bottom: 40px;
+    }
+
+    .handcraft .text h4 {
+
+        margin-bottom: 20px;
+    }
+
+    .handcraft .text p {
+        font-size: 15px;
+        line-height: 1.6em;
+    }
+    #reasons{
+        background-attachment: fixed;
+        padding: 65px 0;
+    }
+    .reason-boxes .box .box-content{
+        margin:0;
+
+    }
+    .reason-boxes .box .box-content span{
+        /* margin-bottom: -8px; */
+        font-size:55px;
+    }
+    .reason-boxes .box .box-content h2{
+    font-size: 16px;
+    line-height: 20px;
+}
+.reason-boxes .box .box-content span #svg1{
+    width:60px;
+    height:auto;
+}
+.reason-boxes .box .box-content span #svg2, .reason-boxes .box .box-content span #svg3{
+    width:50px;
+    height:auto;
+
+}
+.reason-boxes .box{
+    padding: 15px;
+}
+#reasons .reasons-center h1{
+    margin-bottom: 40px;
+    font-size: 28px;}
+    .reasons-center{
+        width: 100%;
+    }
+    .reason-boxes .box .box-content{
+        max-width: 100%;
+    }
+    #testimonials{
+        padding-top:50px;
+    }
+    #testimonials .line{
+        margin:12px auto 45px;
+    }
+    #testimonials .testimonial-box.first{
+        margin-right: 20px;
+        border-bottom: none;
+    }
+
+    #testimonials .testimonial-box.end{
+        display: none;
+    }
+    #testimonials .testimonial-box.second{
+        margin-right: 0;
+    }
+    #brands{
+        padding:35px 15px 45px;
+    }
+
+   
+}
+
+
+
+@media (max-width:767px) {
+    #testimonials .testimonial-box.first{
+        margin-right: 0px;
+    }
+
+    #testimonials .testimonial-box.second{
+display: none;    }
+    .reason-boxes .box .box-content{
+        padding: 0 20px;
+max-width:100%;
+    }
+    .reason-boxes .box{
+        padding: 15px;
+    }
+    #reasons .reasons-center h1{
+        max-width: 767px;
+        margin-bottom: 0;
+        line-height: 1.2em;
+        font-size: 27px;
+    }
+    .handcraft .text h4 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    #reasons{
+        padding: 50px 0 45px;
+    }
+
+    .handcraft .box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    .handcraft-images-row {
+        margin-top: 35px;
+        margin-bottom: 0;
+    }
+
+    #handcraft1 {
+        margin: 0 auto;
+    }
+
+    #handcraft2 {
+        margin: 0 auto;
+    }
+
+    #handcraft2 .text,
+    #handcraft1 .text {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #about-gent {
+        margin-top: 35px;
+    }
+
+    #about-top .about-bg-img {
+        height: auto;
+        min-height: 120px;
+        padding: 20px 0;
+    }
+
+    #about-top .center-text-title {
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #handcraft-boxes .center-text {
+        width: 100%;
+    }
+
+    #handcraft-boxes .center-text p {
+        margin-bottom: 30px;
+    }
+
+    .handcraft-boxes .center-text h4 {
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+    
+  
+  
+}
+
+@media (max-width:575px) {
+    #about-top .center-text-title {
+        margin-bottom: 6px;
+    }
+
+    #handcraft2 .text,
+    #handcraft1 .text {
+        width: 100%;
+    }
+
+    #handcraft-boxes .center-text h4 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width:0px) and (max-width:767px){
+        #brand3,#brand4,#brand5,#brand6{
+            display: none;
+        }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #brand5,#brand6{
+        display: none;
+    }
+}
+@media (min-width:992px){
+    #brand1,#brand2,#brand3,#brand4,#brand5,#brand6{
+        display: block;
+    }
+
+}
+
