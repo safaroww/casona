@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 #footer{
+    margin-top: 70px;
     border-style: solid;
     border-width: 1px 0 0;
     border-color: #e8e8e8;
